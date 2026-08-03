@@ -261,8 +261,8 @@ if status is-interactive
     # #########################################################################
     
     # --- Update ---
-    sdf="sudo dnf"
-    sdnf="sudo dnf"
+    alias sdf="sudo dnf"
+    alias sdnf="sudo dnf"
 
     alias sdnfup="sudo dnf up"
     alias sdnfupy="sudo dnf up -y"
@@ -280,27 +280,27 @@ if status is-interactive
     alias x="exit"
 
     
-    ds="dnf search"
-    fs="dnf search"
-    dfs="dnf search"
+    alias ds="dnf search"
+    alias fs="dnf search"
+    alias dfs="dnf search"
 
-    sdg="sudo dnf group"
+    alias sdg="sudo dnf group"
 
-    dgl="dnf group list"
-    dglh="dnf group list --hidden"
-    dgl_h="dnf group list --hidden"
+    alias dgl="dnf group list"
+    alias dglh="dnf group list --hidden"
+    alias dgl_h="dnf group list --hidden"
 
-    fgl="dnf group list"
-    fglh="dnf group list --hidden"
-    fgl_h="dnf group list --hidden"
+    alias fgl="dnf group list"
+    alias fglh="dnf group list --hidden"
+    alias fgl_h="dnf group list --hidden"
 
-    dgfind="dnf group list --hidden | grep -i"
-    fgfind="dnf group list --hidden | grep -i"
+    alias dgfind="dnf group list --hidden | grep -i"
+    alias fgfind="dnf group list --hidden | grep -i"
 
-    dgif="dnf group info"
-    fgif="dnf group info"
+    alias dgif="dnf group info"
+    alias fgif="dnf group info"
 
-    sdfi="sudo dnf install"
+    alias sdfi="sudo dnf install"
 
     alias md="mkdir -v"    #--verbose
     alias mdp="mkdir -pv"    #--parents
