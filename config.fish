@@ -264,9 +264,6 @@ if status is-interactive
     sdf="sudo dnf"
     sdnf="sudo dnf"
 
-    sdfi="sudo dnf in"
-    sdfi="sudo dnf install"
-
     alias sdnfup="sudo dnf up"
     alias sdnfupy="sudo dnf up -y"
     alias hardsdnfup="sudo dnf up --refresh"
@@ -277,8 +274,33 @@ if status is-interactive
 
     # --- Terminal Basics ---
     alias c="clear"
+    alias d="dnf"
+    alias f="dnf"
     alias e="exit"
     alias x="exit"
+
+    
+    ds="dnf search"
+    fs="dnf search"
+    dfs="dnf search"
+
+    sdg="sudo dnf group"
+
+    dgl="dnf group list"
+    dglh="dnf group list --hidden"
+    dgl_h="dnf group list --hidden"
+
+    fgl="dnf group list"
+    fglh="dnf group list --hidden"
+    fgl_h="dnf group list --hidden"
+
+    dgfind="dnf group list --hidden | grep -i"
+    fgfind="dnf group list --hidden | grep -i"
+
+    dgif="dnf group info"
+    fgif="dnf group info"
+
+    sdfi="sudo dnf install"
 
     alias md="mkdir -v"    #--verbose
     alias mdp="mkdir -pv"    #--parents
