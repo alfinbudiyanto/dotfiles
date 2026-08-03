@@ -261,6 +261,12 @@ if status is-interactive
     # #########################################################################
     
     # --- Update ---
+    sdf="sudo dnf"
+    sdnf="sudo dnf"
+
+    sdfi="sudo dnf in"
+    sdfi="sudo dnf install"
+
     alias sdnfup="sudo dnf up"
     alias sdnfupy="sudo dnf up -y"
     alias hardsdnfup="sudo dnf up --refresh"
@@ -273,6 +279,10 @@ if status is-interactive
     alias c="clear"
     alias e="exit"
     alias x="exit"
+
+    alias md="mkdir -v"    #--verbose
+    alias mdp="mkdir -pv"    #--parents
+    alias md_p="mkdir -pv"
 
     # --- GNOME Text Editor ---
     alias gte="gnome-text-editor"
