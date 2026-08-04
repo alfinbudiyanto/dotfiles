@@ -48,8 +48,7 @@ autostart = [
     "eval $(gnome-keyring-daemon --start --components=ssh) && systemctl --user import-environment SSH_AUTH_SOCK && dbus-update-activation-environment SSH_AUTH_SOCK",
     "/usr/libexec/hyprpolkitagent",
     "noctalia --daemon",
-    "driftmap --width 256 --height 144 --canvas 24242433 --active-window b85cff67 --window 9fa8c767 --suspended	4a4a4a56",
-    "GTK_THEME='Adwaita:dark' nautilus"
+    "driftmap --width 256 --height 144 --canvas 24242433 --active-window b85cff67 --window 9fa8c767 --suspended	4a4a4a56"
 ]
 # #
 # # Running driftwm as a systemd session (via driftwm-session / a display manager)
