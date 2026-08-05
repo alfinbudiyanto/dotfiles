@@ -311,6 +311,9 @@ if status is-interactive
     alias gdit="gnome-text-editor"
     alias gedit="gnome-text-editor"
 
+    # --- FEDORA ASS ---
+    alias deskports="rpm -qa | grep xdg-desktop-portal"
+
     # --- System & Settings Paths ---
     alias customcursor="echo /etc/dconf/db/local.d"
     alias defaultcursor="echo /usr/share/icons/default/"
