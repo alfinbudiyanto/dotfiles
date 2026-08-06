@@ -168,10 +168,10 @@ auto_navigate_on_click = false # completed click on a partially off-screen windo
 # "3" = [1750, -1750]
 # "4" = [-1750, -1750]
 
-"1" = [-5050, 5050]
-"2" = [5050, 5050]
-"3" = [5050, -5050]
-"4" = [-5050, -5050]
+"1" = [-3300, 3300]
+"2" = [3300, 3300]
+"3" = [3300, -3300]
+"4" = [-3300, -3300]
 
 [navigation.edge_pan]
 # zone = 100.0                # activation zone width (px from viewport edge)
