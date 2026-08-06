@@ -679,9 +679,9 @@ decoration_fit_snapped = false
                                      # are never throttled.
 
 [output.outline]
-color = "#ffffff"           # outline color for other monitors' viewports
-thickness = 1               # pixels (0 to disable)
-opacity = 0.5               # 0.0–1.0
+color = "#4169E1"           # outline color for other monitors' viewports
+thickness = 3               # pixels (0 to disable)
+opacity = 0.76              # 0.0–1.0
 
 # ## Outputs
 # # Per-output configuration. Each [[outputs]] entry matches by connector name.
