@@ -1,4 +1,0 @@
-[keybindings]
-"mod+r" = "exec config-reload"
-"mod+l" = "spawn noctalia msg session lock && notify-send 'Session locked'"
-"ctrl+alt+Print" = "spawn noctalia msg plugin noctalia/screen_recorder:service all toggle"
