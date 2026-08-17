@@ -1,1 +1,4 @@
 chsh -s /usr/bin/fish {your_user}
+
+as reminder to make an alias for rm as protection to tragedy
+alias rm = "rm -i"
